@@ -47,7 +47,7 @@ An automated build for the GPU image is not available currently due to timeout r
 Alternatively, you can build the images locally. Also, since the GPU version is not available in Docker Hub at the moment, you'll have to follow this if you want to GPU version. Note that this will take an hour or two depending on your machine since it compiles a few libraries from scratch.
 
 ```bash
-git clone https://github.com/saiprashanths/dl-docker.git
+git clone https://github.com/Karthikksamy/teamsf4win-docker
 cd dl-docker
 ```	
 
