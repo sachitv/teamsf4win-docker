@@ -37,7 +37,7 @@ Docker Hub is a cloud based repository of pre-built images. You can download the
 
 **CPU Version**
 ```bash
-docker pull floydhub/dl-docker:cpu
+docker pull sachitv/team-sf-cpu
 ```
 
 **GPU Version**
@@ -47,7 +47,7 @@ An automated build for the GPU image is not available currently due to timeout r
 Alternatively, you can build the images locally. Also, since the GPU version is not available in Docker Hub at the moment, you'll have to follow this if you want to GPU version. Note that this will take an hour or two depending on your machine since it compiles a few libraries from scratch.
 
 ```bash
-git clone https://github.com/Karthikksamy/teamsf4win-docker
+git clone https://github.com/sachitv/teamsf4win-docker
 cd dl-docker
 ```	
 
@@ -67,7 +67,7 @@ Once we've built the image, we have all the frameworks we need installed in it. 
 
 **CPU Version**
 ```bash
-docker run -it -p 8888:8888 -p 6006:6006 -v /sharedfolder:/root/sharedfolder floydhub/dl-docker:cpu bash
+docker run -it -p 8888:8888 -p 6006:6006 -v /sharedfolder:/root/sharedfolder sachitv/team-sf-cpu bash
 ```
 	
 **GPU Version**
